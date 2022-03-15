@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grey {
+    background-color: #EBEBEB;
+    padding: 79px 0 144px;       
+}
+
+.fixed {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.nav {
+    margin-bottom: 162px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+.item .active {
+    color: #500E0A;
+}
+
+li:not(:first-child) {
+    margin-left: 42px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 60px;
+}
+
+.info-text {
+    color: #727272;
+    width: 540px;
+}
+
+.grey .info-text {
+    margin-bottom: 65px;    
+}
+
+.button {
+    width: 228px;
+    height: 62px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #500E0A;
+    border-radius: 7px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    cursor: pointer;  
+}
+
+.white {
+    background-color: #FFFFFF;
+    padding: 105px 0;
+}
+
+.second-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.white .info-text,
+.work .info-text {
+    text-align: center;
+    margin: 0 auto;   
+}
+
+.red {
+    background-color: #500E0A;
+    padding: 100px 0;    
+}
+
+.card {
+    width: 141px;
+    height: 50px;
+    color: #FFFFFF;
+}
+
+.card img {
+    width: 50px;
+    margin-right: 19px;    
+}
+
+.third-title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.card:not(:first-child) {
+    margin-left: 49px;
+}
+
+.work {
+    background-color: #EBEBEB;
+    padding: 100px 0;
+}
+
+.work .info-text {
+    margin-bottom: 57px;
+}
+
+.footer {
+    background-color: #500E0A;
+    padding: 50px 0;
+}
+
+.footer .third-title {
+    color: #FFFFFF;
+    margin-bottom: 20px;    
+}
+
+.footer-text {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
